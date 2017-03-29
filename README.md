@@ -9,3 +9,7 @@
 no food => no energy => no study 
 
 how can you live without food ? 
+
+live to eat 
+
+eat until die
