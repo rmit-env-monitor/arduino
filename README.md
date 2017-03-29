@@ -1,4 +1,4 @@
-# arduino
+# Arduino
 # Fried Chicken
 # Tteokbokki
 # Soju
@@ -7,3 +7,5 @@
 # Gimbap
 
 no food => no energy => no study 
+
+how can you live without food ? 
