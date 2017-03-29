@@ -1,10 +1,10 @@
 # Arduino
-# Fried Chicken
-# Tteokbokki
-# Soju
-# Kimchi
-# Bibimbap
-# Gimbap
+# Fried Chickeno
+# Tteokbokkio
+# Sojuo
+# Kimchio
+# Bibimbapo
+# Gimbapo
 
 no food => no energy => no study 
 
