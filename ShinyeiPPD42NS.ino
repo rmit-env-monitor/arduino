@@ -1,5 +1,14 @@
-int P1 = 3;
-int P2 = 9;
+/* 
+1: GND
+2: OUTPUT (P2)
+3: 5VDC 90mA
+4: OUTPUT (P1)
+5: INPUT (T1) ... FOR THRESHOLD FOR [P2]
+*/
+
+
+int P1 = 3; // pm2.5
+int P2 = 9; // pm10
 
 unsigned long duration_P1;
 unsigned long duration_P2;
@@ -21,8 +30,8 @@ void setup(){
 }
 
 void loop(){
-  duration_P1 = pulseIN(P1, LOW);
-  duration_P2 = pulseIN(P2, LOW);
+  duration_P1 = pulseIn(P1, LOW);
+  duration_P2 = pulseIn(P2, LOW);
   
   lowpulse_P1 = lowpulse_P1 + duration_P1;
   lowpulse_P2 = lowpulse_P2 + duration_P2;
@@ -46,5 +55,4 @@ void loop(){
     lowpulse_P2 = 0;
     start = millis();
   }
- 
 }
